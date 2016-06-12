@@ -115,6 +115,7 @@
   display: table-cell;
   vertical-align: middle;
   height: 40px;
+  width: 213px !important;
 }
 .owl-carousel .owl-item img {
   display: block;
@@ -158,7 +159,7 @@
   transition: opacity 400ms ease;
 }
 .owl-carousel .owl-item img {
-  transform-style: preserve-3d;
+  /*transform-style: preserve-3d;*/
 }
 
 /* 
@@ -219,18 +220,20 @@
 }
 
 .owl-prev{
-  background: url("../img/arrow_left.png");
-  width: 11px;
-  height: 17px;
+  background:rgba(0, 0, 0, 0) url("../img/sprites.png") repeat scroll -217px -55px;
+  width: 27px;
+  height: 27px;
   position: absolute;
-  left: 0;
-  top:15px;
+  left:-30px;
+  top:50%;
+  margin-top: -18px;
 }
 .owl-next{
-  background: url("../img/arrow_right.jpg");
-  width: 11px;
-  height: 17px;
+  background:rgba(0, 0, 0, 0) url("../img/sprites.png") repeat scroll -248px -56px;
+  width: 27px;
+  height: 27px;
   position: absolute;
-  right: 0;
-  top:15px;
+  right: -30px;
+  top: 50%;
+  margin-top: -18px;
 }

@@ -19,5 +19,11 @@ $(document).ready(function(){
         return false;
     });
 
+    $("#carousel").owlCarousel({
+        "items": 4,
+        "loop" :false,
+        "nav" : true
+    });
+
 });
 

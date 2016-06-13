@@ -736,6 +736,38 @@
     .brands_bottom_blog{
         display:block;
     }
+
+    .blog_wrap{
+        display: block;
+    }
+
+    .blog_item{
+        width: 100%;
+        border-bottom:1px solid #aaaaaa;
+        padding-bottom:0 ;
+        margin-bottom: 25px;
+    }
+
+    .blog_title_480{
+        display: block;
+    }
+
+    .blog_time_480{
+        display: block;
+    }
+
+    .blog_item a{
+        font-size: 14px;
+    }
+
+    .blog_item > p {
+        display: none;
+    }
+
+    .materials_comments_480{
+        display: block;
+    }
+
 }
 
 @media screen and (max-width: 630px) {

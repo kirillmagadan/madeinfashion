@@ -1084,11 +1084,13 @@ a.a1_vipadayuschaya_korzina i.total_korzina_index {
     max-width: 935px;
 }
 
-.brands_bottom{
-    margin: 10px auto 20px;
-    width: 100%;
-    max-width: 930px;
 
+.brands_bottom {
+    box-sizing: border-box;
+    margin: 10px auto 20px;
+    max-width: 930px;
+    padding: 0 25px;
+    width: 100%;
 }
 
 .brands_bottom a, .brands_bottom p {
@@ -1255,6 +1257,7 @@ section{
     width: 100%;
     max-width: 625px;
     float: left;
+    position: relative;
 }
 
 .section_img{
@@ -1689,6 +1692,314 @@ aside{
     margin-bottom: 23px;
 }
 
+.thank_ordering{
+    box-sizing: border-box;
+}
+
+.thank_ordering h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.reviews_content{
+    margin-top: 20px;
+}
+
+.reviews_section{
+    background: #ffffff;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    max-width: 668px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.reviews_section_container{
+    box-sizing: border-box;
+    padding: 10px 8px;
+}
+
+.rl_top{
+    background:url("../img/rl-top.png") no-repeat scroll center bottom;
+    width: 100%;
+    height: 14px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -12px;
+}
+
+.rl_bot{
+    background:url("../img/rl-bot.png") no-repeat scroll center bottom;
+    width: 100%;
+    height: 14px;
+    position: absolute;
+    bottom: -12px;
+}
+
+
+
+.wr {
+    background: #ededed none repeat scroll 0 0;
+    border-radius: 15px;
+    box-shadow: 3px 3px 0 #acacac;
+    color: #000000;
+    display: block;
+    float: right;
+    font: italic 11px/28px Arial;
+    margin-right: 12px;
+    padding: 1px 0;
+    text-align: center;
+    text-decoration: underline;
+    width: 109px;
+}
+
+.wr:hover{
+    background: #dad8d8;
+}
+
+.reviews_section_container ul li{
+    display: block;
+    border-top: 1px solid #f5f5f5;
+    padding: 6px 0 10px;
+    box-sizing: border-box;
+    background: #fcfcfc;
+    position: relative;
+}
+
+.reviews_section_container ul li:first-child{
+    border-top: 1px solid #dfdfdf;
+}
+
+.reviews_section_container ul li p{
+    color: #393939;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.review-name{
+    float: right;
+    padding-right: 3px;
+    margin-bottom: 5px;
+    color: #393939;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: right;
+}
+
+.reviews_h2{
+    background: url("../img/reviews-title.png") no-repeat scroll 0 0;
+    color: #000;
+    font: 14px/16px Arial;
+    margin: 0 0 11px;
+    padding: 4px 0 0 30px;
+    text-shadow: 1px 0 0 #969696;
+}
+
+.reviews_item{
+    margin-bottom: 10px;
+}
+
+.reviews_item h4{
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.reviews_item a{
+    display: inline-block;
+    cursor: url("../img/zoom-cursor.png"),pointer;
+}
+
+.reviews_item a img{
+    border: 1px solid #cacaca;
+    box-shadow: 4px 4px 4px 0 #aaa;
+}
+
+.aside_reviews{
+    max-width: 240px;
+}
+
+.pagination .back_to_list{
+    float: left;
+    text-decoration: underline;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pagination .back_to_list:hover{
+    text-decoration: none;
+}
+
+.pagination{
+    margin-top: 50px;
+}
+
+.pagination ul{
+    float: right;
+    height: 22px;
+    margin: 0;
+    padding: 0 6px 0 0;
+}
+
+.pagination ul li{
+    display: inline-block;
+    margin-right:5px;
+    border-top: none;
+}
+
+.pagination ul li:first-child{
+    border-top: none;
+}
+
+
+.pagination ul li:last-child{
+    margin-right:0;
+}
+
+.pagination ul li>.dotted{
+    width: auto;
+    background: none;
+    border: none;
+    text-decoration: none;
+}
+
+.pagination ul li a{
+    display: inline-block;
+    background: #eeeff0;
+    border: 1px solid #e2e2e2;
+    font-size: 14px;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+}
+
+.pagination ul li a:hover{
+   text-decoration: underline;
+}
+
+.pagination ul li>.active{
+    background: #000;
+    border: 1px solid #000;
+    color: #ffffff;
+}
+
+.pagination ul li>.pagination_arrow{
+    height: auto;
+    width: auto;
+    background: none;
+    border: none;
+}
+
+
+.aside_reviews>.subheader_item_right {
+    display: block;
+    float: none;
+    vertical-align: top;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.aside_reviews>.subheader_item_right li{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+    border-bottom: 1px dashed #dfdfdf;
+    padding: 25px 21px 25px 93px;
+    background: #fafafa;
+    position: relative;
+}
+
+.aside_reviews>.subheader_item_right li:hover{
+    background: #ebebeb;
+}
+
+
+.aside_reviews>.subheader_item_right>.li_item1:before{
+    display: block;
+    position: absolute;
+    content: "";
+    background: url("../img/bnft-1.png");
+    width: 44px;
+    height: 36px;
+    left: 37px;
+    top: 21%;
+}
+
+.aside_reviews>.subheader_item_right>.li_item2:before{
+    display: block;
+    position: absolute;
+    content: "";
+    background: url("../img/ben-1.png");
+    width: 33px;
+    height: 20px;
+    left: 37px;
+    top: 35%;
+}
+
+.aside_reviews>.subheader_item_right>.li_item3:before{
+    display: block;
+    position: absolute;
+    content: "";
+    background: url("../img/bnft-3.png");
+    width: 33px;
+    height: 31px;
+    left: 37px;
+    top: 28%;
+}
+
+.aside_reviews>.subheader_item_right>.li_item4:before{
+    display: block;
+    position: absolute;
+    content: "";
+    background: url("../img/bnft-4.png");
+    width: 35px;
+    height: 34px;
+    left: 37px;
+    top: 28%;
+}
+
+.aside_reviews>.subheader_item_right>.li_item5:before{
+    display: block;
+    position: absolute;
+    content: "";
+    background: url("../img/bnft-5.png");
+    width: 36px;
+    height: 26px;
+    left: 37px;
+    top: 32%;
+}
+
+.aside_reviews>.subheader_item_right>.li_item6:before{
+    display: block;
+    position: absolute;
+    content: "";
+    background: url("../img/bnft-7.png");
+    width: 31px;
+    height: 28px;
+    left: 37px;
+    top: 33%;
+}
+
+.aside_reviews>.subheader_item_right>.li_item7:before{
+    display: block;
+    position: absolute;
+    content: "";
+    background: url("../img/bnft-6.png");
+    width: 31px;
+    height: 30px;
+    left: 37px;
+    top: 30%;
+}
+
+/*psecdofooter*/
+.psevdofooter{
+    height:331px ;
+}
 /*footer*/
 
 footer{

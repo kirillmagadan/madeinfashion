@@ -458,6 +458,18 @@
     .show_more{
         display: block;
     }
+
+    .thank_ordering{
+        padding: 0 25px;
+    }
+
+    .thank_ordering h1{
+        font-size: 24px;
+    }
+
+    .thank_ordering p{
+        font-size: 17px;
+    }
 }
 
 
@@ -541,6 +553,7 @@
     .brands_bottom {
        margin-bottom: 0;
         margin-top: 0;
+        padding: 0;
     }
 
     .brands_bottom p > .arrow_a {
@@ -766,6 +779,10 @@
 
     .materials_comments_480{
         display: block;
+    }
+
+    .thank_ordering{
+        padding-top: 30px;
     }
 
 }

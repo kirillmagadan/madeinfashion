@@ -1185,6 +1185,7 @@ a.a1_vipadayuschaya_korzina i.total_korzina_index {
 
 .back_link{
     position: relative;
+    display: none;
 }
 
 .back_link::before {
@@ -1995,6 +1996,69 @@ aside{
     left: 37px;
     top: 30%;
 }
+
+.cloud_reviews{
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #a6a6a6;
+    border-radius: 0;
+    box-shadow: 4px 3px 3px 0 #7a7a7a;
+    display: none;
+    height: auto;
+    left: -130px;
+    padding: 0 12px;
+    position: absolute;
+    top: -5px;
+    width: 193px;
+    z-index: 97;
+}
+
+.cloud_reviews p{
+    font-size: 12px;
+}
+
+.cloud_reviews>.cloud_top:before {
+    display: none;
+}
+
+.cloud_reviews:after {
+    content: "";
+    position: absolute;
+    background: url("../img/arrow_reviews.png") no-repeat;
+    width: 13px;
+    height: 20px;
+    left: 217px;
+    top: 50%;
+    margin-top:-9px;
+
+}
+
+.subheader_item_right li.li_item4 > .cloud_reviews {
+    left: -130px;
+    margin-left: -90px;
+}
+
+.aside_reviews_bottom{
+    box-sizing: border-box;
+    background:  #fafafa;
+    padding-left: 23px;
+    padding-right: 14px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.aside_reviews_bottom p {
+    margin-bottom: 25px;
+    color: #666;
+}
+
+.aside_reviews_bottom a {
+    color: #f56a3f;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 
 /*psecdofooter*/
 .psevdofooter{

@@ -470,9 +470,60 @@
     .thank_ordering p{
         font-size: 17px;
     }
+
+    .rl_top , .rl_bot {
+        display: none;
+    }
+
+    .reviews_section{
+        border-right: none;
+        border-left: none;
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    .reviews_content {
+        margin-top: 0;
+    }
+
+    .back_link{
+        display: block;
+    }
+
+    .reviews_h2 {
+        background: none;
+        color: #000;
+        font-size: 24px;
+        font-family: "Arial", sans-serif;
+        font-weight: bold;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    .wr {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8d29+42,ff6c06+61 */
+        background: rgb(255,141,41); /* Old browsers */
+        /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI0MiUiIHN0b3AtY29sb3I9IiNmZjhkMjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI2MSUiIHN0b3AtY29sb3I9IiNmZjZjMDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background: -moz-linear-gradient(top, rgba(255,141,41,1) 42%, rgba(255,108,6,1) 61%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(255,141,41,1) 42%,rgba(255,108,6,1) 61%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(255,141,41,1) 42%,rgba(255,108,6,1) 61%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8d29', endColorstr='#ff6c06',GradientType=0 ); /* IE6-8 */
+        border-radius: 4px;
+        box-shadow: none;
+        color: #ffffff;
+        font: italic 14px Arial;
+        text-decoration: none;
+        width: auto;
+        padding: 8px 14px;
+        border: 1px solid #f87e20;
+    }
+
+    .wr :hover {
+        opacity: 0.8;
+       background: none;
+    }
 }
-
-
 
 @media screen and (max-width: 770px) {
     .phone {

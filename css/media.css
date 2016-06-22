@@ -480,6 +480,7 @@
         border-left: none;
         max-width: 100%;
         margin-top: 0;
+        margin-bottom: 0;
     }
 
     .reviews_content {
@@ -517,12 +518,99 @@
         width: auto;
         padding: 8px 14px;
         border: 1px solid #f87e20;
+        top: -3px;
+        right: 0;
+        position: absolute;
     }
 
-    .wr :hover {
+    .wr:hover {
         opacity: 0.8;
-       background: none;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8d29+42,ff6c06+61 */
+        background: rgb(255,141,41); /* Old browsers */
+        /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI0MiUiIHN0b3AtY29sb3I9IiNmZjhkMjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI2MSUiIHN0b3AtY29sb3I9IiNmZjZjMDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background: -moz-linear-gradient(top, rgba(255,141,41,1) 42%, rgba(255,108,6,1) 61%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(255,141,41,1) 42%,rgba(255,108,6,1) 61%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(255,141,41,1) 42%,rgba(255,108,6,1) 61%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8d29', endColorstr='#ff6c06',GradientType=0 ); /* IE6-8 */
     }
+
+    .reviews_item{
+        display: none;
+    }
+
+
+    .reviews_section_container ul li{
+        border-top: 1px solid #d1d1d1;
+    }
+
+    .reviews_item780{
+        display: flex;
+        display: -webkit-flex;
+        justify-content:space-around;
+        -webkit-justify-content: space-around;
+        -webkit-flex-flow: wrap;
+        flex-flow:wrap;
+        margin-bottom: 0;
+    }
+
+    .review-name br{
+        display: none;
+    }
+
+    .review-name{
+        font-size: 14px;
+        color: #000000;
+    }
+
+
+
+    .reviews_section_container {
+        padding: 10px 0;
+    }
+
+    .reviews_section_container ul li p {
+        color: #000000;
+        margin-bottom: 20px;
+    }
+
+    .aside_reviews{
+        display: none;
+    }
+
+    .border780{
+        display: block;
+    }
+
+    .reviews_section_container>ul {
+        margin-bottom: 25px;
+
+    }
+
+    .pagination{
+        margin-top: 20px;
+        margin-bottom: 55px;
+    }
+
+    .pagination ul{
+        display: none;
+    }
+
+    .pagination .wr {
+        display: block;
+        right: 0;
+        top: 0;
+        margin-right: 2px;
+    }
+
+    .pagination .back_to_list {
+        margin-left: 10px;
+    }
+
+    .reviews_section_container .labels{
+        display: block;
+    }
+
 }
 
 @media screen and (max-width: 770px) {
@@ -836,6 +924,39 @@
         padding-top: 30px;
     }
 
+    .wr {
+        font: italic 18px Arial;
+        padding: 18px 0;
+        position: absolute;
+        top: 75px;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .reviews_section_container ul li:first-child {
+        border-top: medium none !important;
+    }
+
+    .reviews_h2{
+        border: medium none;
+        position: absolute;
+        right: 1%;
+        top: 28px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .reviews_section_container>ul{
+        margin-top:100px ;
+    }
+
+
+    .pagination .wr {
+        display:none;
+
+    }
+
 }
 
 @media screen and (max-width: 630px) {
@@ -847,6 +968,8 @@
         font-size: 12px;
         padding: 7px;
     }
+
+
 
 }
 
@@ -925,4 +1048,8 @@
         padding-left: 20px;
     }
 
+
+     .labels .label_title480{
+        font-size: 20px;
+    }
 }

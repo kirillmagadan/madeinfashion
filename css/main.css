@@ -788,7 +788,9 @@ a.a1_vipadayuschaya_korzina i.total_korzina_index {
 .content_nav_wrap ul{
     display: flex;
     justify-content:space-around;
-    flex-flow: wrap;
+    -webkit-justify-content: space-around;
+    -webkit-flex-flow: wrap;
+    flex-flow:wrap;
 }
 
 .content_nav_wrap ul>li{
@@ -943,6 +945,10 @@ a.a1_vipadayuschaya_korzina i.total_korzina_index {
     width: 126px;
 }
 
+.label_title480{
+    text-align: center;
+    margin-bottom: 25px;
+}
 
 .gallery .prev {
     background: rgba(0, 0, 0, 0) url("../img/sprites.png") repeat scroll -217px -55px;
@@ -978,7 +984,7 @@ a.a1_vipadayuschaya_korzina i.total_korzina_index {
     width: 100%;
 }
 
-.gallery-wrap ul{
+.gallery-wrap>ul{
    position: relative;
     display: block;
 }
@@ -1254,6 +1260,13 @@ a.a1_vipadayuschaya_korzina i.total_korzina_index {
     display: none;
 }
 
+.border780{
+    height: 1px;
+    background: #d1d1d1;
+    margin: 23px auto 6px;
+    display: none;
+}
+
 section{
     width: 100%;
     max-width: 625px;
@@ -1426,7 +1439,7 @@ section h1{
     font-size: 14px;
     color: #000000;
     display: inline-block;
-    padding: 4px 14px;
+    padding: 5px 14px;
     border:1px solid #cdcdcd;
     border-left: none ;
     border-top-right-radius: 5px;
@@ -1819,6 +1832,26 @@ aside{
     box-shadow: 4px 4px 4px 0 #aaa;
 }
 
+.reviews_item780{
+    display: none;
+    -webkit-justify-content: space-around;
+    -webkit-flex-flow:row wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.reviews_item780 a{
+    display: flex;
+    padding-bottom: 15px;
+    cursor: url("../img/zoom-cursor.png"),pointer;
+    margin-bottom: 10px;
+}
+
+.reviews_item780 a:last-child{
+    margin-right: 0;
+}
+
 .aside_reviews{
     max-width: 240px;
 }
@@ -1837,6 +1870,7 @@ aside{
 
 .pagination{
     margin-top: 50px;
+    position: relative;
 }
 
 .pagination ul{
@@ -1849,7 +1883,7 @@ aside{
 .pagination ul li{
     display: inline-block;
     margin-right:5px;
-    border-top: none;
+    border-top: none !important;
 }
 
 .pagination ul li:first-child{
@@ -1895,6 +1929,9 @@ aside{
     border: none;
 }
 
+.pagination .wr{
+    display: none;
+}
 
 .aside_reviews>.subheader_item_right {
     display: block;
@@ -2059,6 +2096,9 @@ aside{
     text-decoration: underline;
 }
 
+.reviews_section_container .labels{
+    display: none;
+}
 
 /*psecdofooter*/
 .psevdofooter{

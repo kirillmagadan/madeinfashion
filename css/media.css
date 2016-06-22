@@ -487,8 +487,8 @@
         margin-top: 0;
     }
 
-    .back_link{
-        display: block;
+     .breadcrumbs>.back_link{
+        display: inline-block;
     }
 
     .reviews_h2 {

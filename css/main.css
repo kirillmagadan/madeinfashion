@@ -1189,7 +1189,7 @@ a.a1_vipadayuschaya_korzina i.total_korzina_index {
     text-decoration: underline;
 }
 
-.back_link{
+.breadcrumbs>.back_link{
     position: relative;
     display: none;
 }
@@ -2099,6 +2099,86 @@ aside{
 .reviews_section_container .labels{
     display: none;
 }
+
+.look_book_title{
+    border-bottom:1px solid #d1d1d1;
+    margin-bottom: 20px;
+}
+
+.look_book_title h1{
+    font: 24px/34px Arial;
+    margin: 0;
+    float: left;
+}
+
+.look_book_title .pagination{
+    display: inline-block;
+    float: right;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.look_book_content{
+    margin-top: 10px;
+}
+
+.colorsetting{
+    margin-bottom: 26px;
+}
+
+.colorsetting span{
+    color: #010101;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.colorsetting_item{
+    margin-bottom: 14px;
+}
+
+.colorsetting_item img{
+    border: 1px solid #3f3f3f;
+    display: inline-block;
+    margin-right: 6px;
+    position: relative;
+}
+
+
+
+.colorsetting_item img:last-child{
+    margin-right: 0;
+}
+
+.choose_color{
+    max-width: 358px;
+}
+
+.choose_color_carousel{
+    width: 100%;
+}
+
+.colorsetting .choose_color_carousel li{
+    width: 100%;
+    display: inline-block;
+
+}
+
+.colorsetting .choose_color_carousel li a{
+    text-align: center;
+}
+
+.choose_color_carousel li .price{
+    text-align: center;
+}
+
+.colorsetting .choose_color_carousel li .img_box img {
+    margin: 0;
+    max-width: 358px;
+    width: 100%;
+}
+
+
 
 /*psecdofooter*/
 .psevdofooter{

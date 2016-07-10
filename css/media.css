@@ -611,6 +611,215 @@
         display: block;
     }
 
+    .look_book_title .pagination{
+        display: none;
+    }
+
+
+    .choose_color {
+        margin-right: 10px;
+        max-width: 320px;
+    }
+
+
+    .colorsetting .choose_color_carousel li .img_box {
+        width: 100%;
+    }
+
+    .look_book_item {
+        padding-bottom: 20px;
+    }
+
+    .look_book_right {
+        max-width: 410px;
+    }
+
+
+    .look_book_right h2 {
+        background: none;
+        display: block;
+        float: none;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0 0 0 5px;
+    }
+
+    .photo_look_book{
+       display: none;
+    }
+
+    .photo_look_book_wrap{
+        display: flex;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        justify-content: space-between;
+        -webkit-justify-content:space-between ;
+    }
+
+
+    .look_book_pagination {
+        display: none;
+    }
+
+    .gallery_look_book_title{
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 0;
+        text-align: center;
+        padding-left: 0;
+    }
+
+
+    .look_book_right p {
+        margin-bottom: 15px;
+    }
+
+
+    .colorsetting span {
+        margin-bottom: 12px;
+    }
+
+    .colorsetting_item {
+        margin-bottom: 20px;
+    }
+
+    .colorsetting .choose_color_carousel li .img_box {
+        padding-bottom: 20px;
+    }
+
+    .colorsetting .choose_color_carousel li:hover .fast-view {
+        display: none;
+    }
+
+    .choose_color_circles {
+        display: inline-block;
+    }
+
+
+    .card_left {
+        max-width: 300px;
+        padding-left: 10px;
+    }
+
+    .card_right {
+        max-width: 415px;
+        padding-right: 10px;
+    }
+
+    .reviews_product_viewing{
+        display:none;
+    }
+
+
+    .product_viewing {
+        display: none;
+    }
+
+    .card_left_products_item {
+       margin-bottom: 18px;
+    }
+
+    .card_carousel {
+        margin-bottom: 18px;
+    }
+
+    .card_carousel a {
+        margin-right: 25px;
+        width: 80px;
+    }
+
+    .card_carousel a:last-child {
+        margin-right:0;
+    }
+
+    .card_carousel a img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .btn_video{
+        display: block;
+    }
+
+    .cat-info-link a{
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fdfdfd+0,f2f2f2+64,f2f2f2+100,f2f2f2+100,f2f2f2+100 */
+        background: #fdfdfd; /* Old browsers */
+        background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 64%, #f2f2f2 100%, #f2f2f2 100%, #f2f2f2 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 64%,#f2f2f2 100%,#f2f2f2 100%,#f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #fdfdfd 0%,#f2f2f2 64%,#f2f2f2 100%,#f2f2f2 100%,#f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */        border: 1px solid #cdcdcd;
+        border-radius: 3px;
+        font-size: 14px;
+        font-weight: normal;
+        padding: 6px 30px;
+        text-decoration: none;
+        margin-right: 8px;
+    }
+
+    .cat-info-link a:last-child{
+        margin-right: 0;
+    }
+
+
+    .cat-info-link span {
+       display: none;
+    }
+
+    .btn_card {
+        box-shadow: none;
+        font-size: 21px;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+    }
+
+    .colorsetting_card span {
+        margin-bottom: 0;
+    }
+
+    .card_table_adaptive{
+        float: none;
+        max-width: 100%;
+        margin-top: 30px;
+        padding-right: 0;
+    }
+
+    .clear_770{
+        display: block;
+    }
+
+    .table_header > .li_border {
+       display: none;
+    }
+
+    .table_header{
+        margin: auto;
+    }
+
+    .table_header li {
+        font-size: 14px;
+        width: 19.99%;
+        box-sizing: border-box;
+    }
+
+    .table_header li a {
+        font-size: 14px;
+        padding: 0 0 1px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .display_block{
+        display: block;
+    }
+
+     .label > .gallery_product_title{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+         margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 770px) {
@@ -957,6 +1166,130 @@
 
     }
 
+    .look_book_title{
+        height: 65px;
+        margin-bottom: 30px;
+    }
+
+    .look_book_title h1{
+        position: absolute;
+        right: 1%;
+        top:13px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .choose_color {
+        display: block;
+        margin-right: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+
+
+    .colorsetting .choose_color_carousel li .img_box img {
+        max-width: 100%;
+    }
+
+
+    .look_book_right h2 {
+        background: none;
+        display: block;
+        float: none;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 0;
+        position: absolute;
+        text-align: left;
+        top: 0;
+    }
+
+    .look_book_item {
+        padding-top: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .look_book_right {
+        margin: auto;
+        max-width: 100%;
+    }
+
+
+    .look_book_right .view {
+        color: #000;
+        font: italic 15px Arial;
+        margin-bottom: 20px;
+    }
+
+    .view_links {
+        padding-left: 0;
+    }
+
+    .view_links a:first-child::before {
+        background: none;
+        width: 0;
+    }
+    .view_links a:first-child::after {
+        background: none;
+        width: 0;
+    }
+
+    .view_links a {
+        color: #000;
+        display: inline-block;
+        font: normal 14px Arial;
+        padding: 6px 38px;
+        text-decoration: none;
+        border: 1px solid #cdcdcd;
+        border-radius: 3px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fdfdfd+0,f2f2f2+64,f2f2f2+100,f2f2f2+100,f2f2f2+100 */
+        background: #fdfdfd; /* Old browsers */
+        background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 64%, #f2f2f2 100%, #f2f2f2 100%, #f2f2f2 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 64%,#f2f2f2 100%,#f2f2f2 100%,#f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #fdfdfd 0%,#f2f2f2 64%,#f2f2f2 100%,#f2f2f2 100%,#f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+        margin-right: 15px;
+    }
+
+    .view_links a:last-child {
+        margin-right: 0;
+    }
+
+    .card_left{
+        display: none;
+    }
+
+    .card_right{
+        display: none;
+    }
+
+    .card_title{
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .card_chanel{
+        display: block;
+
+    }
+
+    .text_product{
+        display: none;
+    }
+
+    .seo_text_card{
+        display:block;
+    }
+
+    .text_product{
+        display: none;
+    }
+
+    .filter_card{
+        display: block;
+    }
+
 }
 
 @media screen and (max-width: 630px) {
@@ -1051,5 +1384,45 @@
 
      .labels .label_title480{
         font-size: 20px;
+    }
+
+    .view_links a {
+        font: normal 12px Arial;
+        padding: 6px 35px;
+    }
+
+    .choose_color_circles {
+        top: 75%;
+    }
+
+    .look_book_right h2 {
+        font-size: 15px;
+    }
+
+    .card_title_btn {
+        font-size: 11px;
+    }
+
+    .filter_btn::before {
+        top: 8px;
+    }
+
+    .filter_btn {
+        font-size: 10px;
+        padding: 5px 30px 5px 22px;
+    }
+
+
+    .filter_sort span {
+        font-size: 10px;
+    }
+
+    .filter_sort a {
+        font-size: 10px;
+    }
+
+    .filter_card {
+        margin-bottom: 20px;
+        padding: 0;
     }
 }

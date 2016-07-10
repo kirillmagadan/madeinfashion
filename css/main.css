@@ -1090,6 +1090,24 @@ a.a1_vipadayuschaya_korzina i.total_korzina_index {
     max-width: 935px;
 }
 
+.text_product p{
+    color: #525252;
+    font: 14px/18px 'Roboto', sans-serif;
+    margin:0;
+}
+
+.text_product > ul{
+    list-style-type:disc;
+    padding-left: 40px;
+    margin: 10px 0;
+}
+
+.text_product li{
+    color: #525252;
+    font: 14px/18px 'Roboto', sans-serif;
+    margin:0;
+    display: list-item;
+}
 
 .brands_bottom {
     box-sizing: border-box;
@@ -1223,7 +1241,7 @@ a.a1_vipadayuschaya_korzina i.total_korzina_index {
     color: #bdbdbd;
     padding-left: 27px;
     position: relative;
-    margin-top: 15px;
+    margin-top: 16px;
 }
 
 .breadcrumbs_back:before{
@@ -2100,6 +2118,17 @@ aside{
     display: none;
 }
 
+.look_book_item{
+    border-bottom:1px solid #d1d1d1;
+    margin-bottom: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.look_book_item:last-child{
+    margin-bottom: 50px;
+}
+
 .look_book_title{
     border-bottom:1px solid #d1d1d1;
     margin-bottom: 20px;
@@ -2123,7 +2152,7 @@ aside{
 }
 
 .colorsetting{
-    margin-bottom: 26px;
+    margin-bottom: 20px;
 }
 
 .colorsetting span{
@@ -2137,21 +2166,82 @@ aside{
     margin-bottom: 14px;
 }
 
-.colorsetting_item img{
+.colorsetting_item .check img{
     border: 1px solid #3f3f3f;
     display: inline-block;
-    margin-right: 6px;
-    position: relative;
+
 }
 
+.look_book_pagination{
+    border-bottom: none;
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 280px;
+    margin-bottom: 40px;
+}
 
+.look_book_pagination .back_to_list {
+    float: left;
+    font-family: "Arial",sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
 
-.colorsetting_item img:last-child{
+.look_book_pagination .back_to_list:hover {
+    text-decoration: none;
+}
+
+.gallery_look_book{
+    padding-top: 0;
+    margin-bottom: 30px;
+}
+
+.check{
+    position: relative;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+.btn_card{
+    box-shadow:3px 3px 0 #d2d2d2;
+    float: none;
+    margin: 0 7px 0 0;
+    text-transform: uppercase;
+    width: 153px;
+    box-sizing: border-box;
+    font: 15px Arial;
+    margin-bottom: 40px;
+}
+
+.btn_card:hover{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff6802+35,ff8e2b+56 */
+    background: rgb(255,104,2); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIzNSUiIHN0b3AtY29sb3I9IiNmZjY4MDIiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1NiUiIHN0b3AtY29sb3I9IiNmZjhlMmIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(255,104,2,1) 35%, rgba(255,142,43,1) 56%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,104,2,1) 35%,rgba(255,142,43,1) 56%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,104,2,1) 35%,rgba(255,142,43,1) 56%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6802', endColorstr='#ff8e2b',GradientType=0 ); /* IE6-8 */
+}
+
+.check_active > .check_img {
+    border: medium none !important;
+    display: inline-block;
+    left: 30px;
+    position: absolute;
+    top: 22px;
+}
+
+.colorsetting_item .check img:last-child{
     margin-right: 0;
 }
 
 .choose_color{
     max-width: 358px;
+    display: inline-block;
+    margin-right: 32px;
+    vertical-align: top;
 }
 
 .choose_color_carousel{
@@ -2161,7 +2251,15 @@ aside{
 .colorsetting .choose_color_carousel li{
     width: 100%;
     display: inline-block;
+    position: relative;
+}
 
+.colorsetting .choose_color_carousel li:hover .fast-view{
+    display: block;
+}
+
+.colorsetting .choose_color_carousel li .fast-view{
+    top: 274px;
 }
 
 .colorsetting .choose_color_carousel li a{
@@ -2172,13 +2270,659 @@ aside{
     text-align: center;
 }
 
+.colorsetting .choose_color_carousel li .img_box{
+    margin: 0;
+    width: 358px;
+}
+
 .colorsetting .choose_color_carousel li .img_box img {
     margin: 0;
     max-width: 358px;
     width: 100%;
 }
 
+.look_book_right{
+    display: inline-block;
+    width: 100%;
+    max-width: 530px;
+    vertical-align: top;
+}
 
+.look_book_right h2 {
+    background:url("../img/ray.png") no-repeat scroll 1% bottom;
+    font: 20px/28px Arial;
+    margin: 0 0 20px;
+    padding: 0 25px 3px 10px;
+    text-align: right;
+    text-transform: uppercase;
+    float: right;
+    display: inline-block;
+}
+
+.look_book_right p {
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+    margin-bottom: 30px;
+}
+
+.photo_look_book_wrap{
+    display: none;
+}
+
+.photo_look_book_wrap a{
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    width: 195px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.photo_look_book_wrap a img{
+    width: 195px;
+}
+
+.photo_look_book {
+    cursor: url("../img/zoom-cursor.png"), pointer;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+
+.photo_look_book:last-child{
+    margin-right: 0;
+}
+
+.photo_look_book img{
+    border: 1px solid #cacaca;
+    box-shadow: 4px 4px 4px 0 #aaa;
+}
+
+.look_book_right .view{
+    color: #000;
+    font: italic 12px Arial;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+.view_links{
+    padding-left:20px ;
+}
+
+.view_links a{
+    color: #5b5858;
+    font: italic 13px Arial;
+    text-decoration: underline;
+    display: inline-block;
+    padding: 0 6px;
+    position: relative;
+}
+
+.view_links a:first-child:before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background: url("../img/arrow-7.png");
+    width: 15px;
+    height: 14px;
+    left: -16px;
+    top: -3px;
+}
+
+.view_links a:first-child:after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background: url("../img/separ-2.png");
+    width: 2px;
+    height: 15px;
+    right: -3px;
+    top: 0;
+}
+
+.label_look_book{
+    background: none;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.gallery_look_book_title{
+    font: 18px Arial;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.choose_color_circles{
+    display: none;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+    margin-top: -45px;
+    top: 80%;
+
+}
+
+.choose_color_circles span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ffffff;
+    margin-right: 14px;
+    cursor: pointer;
+
+}
+
+.choose_color_circles span:last-child{
+    margin-right:0;
+
+}
+
+.choose_color_circles > .choose_color_active{
+    border: 1px solid #f87e20;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8d29+42,ff6c06+61 */
+    background: rgb(255,141,41); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI0MiUiIHN0b3AtY29sb3I9IiNmZjhkMjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI2MSUiIHN0b3AtY29sb3I9IiNmZjZjMDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(255,141,41,1) 42%, rgba(255,108,6,1) 61%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,141,41,1) 42%,rgba(255,108,6,1) 61%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,141,41,1) 42%,rgba(255,108,6,1) 61%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8d29', endColorstr='#ff6c06',GradientType=0 ); /* IE6-8 */
+}
+
+.card_left{
+    max-width: 400px;
+    width: 100%;
+    float: left;
+}
+
+.card_left_products{
+    width: 100%;
+
+}
+
+.card_left_products_item{
+    width: 100%;
+    display: block;
+}
+
+.card_left_products_item img{
+    margin-bottom: 0;
+    width: 100%;
+    display: block;
+}
+
+.product_viewing{
+    width: 100%;
+    display: block;
+    background-color: #1b1b1b;
+    height: 19px;
+    margin-bottom: 4px;
+    text-align: center;
+    position:relative;
+    color: #ffffff;
+    font: 11px/19px Arial;
+}
+
+.product_viewing:hover{
+    text-decoration: underline;
+}
+
+.product_viewing>img{
+    background: url("../img/zoom-2.png");
+    display: inline-block;
+    height: 10px;
+    left: 156px;
+    position: absolute;
+    top: 4px;
+    width: 10px;
+}
+
+.card_carousel{
+    margin-bottom: 25px;
+}
+
+.card_carousel a{
+    display: inline-block;
+    width: 130px;
+}
+
+
+.card_carousel a img{
+    display: block;
+    margin: auto;
+    width: 110px;
+    height: 110px;
+}
+
+.reviews_product_viewing ul li{
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.reviews_product_viewing ul{
+    margin-bottom: 25px;
+}
+
+.reviews_product_viewing .wr{
+    font: bold 12px/28px Arial;
+    float: none;
+    margin-right: 16px;
+    display:inline-block;
+    text-decoration: none;
+}
+
+.all_reviews{
+    display: inline-block;
+    vertical-align: middle;
+    font: bold 12px/28px Arial;
+    text-decoration: underline;
+    color: #000000;
+}
+
+.all_reviews:hover{
+    text-decoration: none;
+}
+
+.card_right{
+    float: right;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 480px;
+}
+
+.product_h1{
+    color: #1b1b1b;
+    font: bold 24px Arial;
+    margin: 0 0 5px;
+}
+
+.product_wr_wrap{
+    margin-bottom: 20px;
+}
+
+.cat-info-link {
+    margin-bottom: 25px;
+}
+
+.cat-info-link a {
+    color: #000;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.cat-info-link span {
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.pricebox{
+    margin-bottom: 35px;
+}
+
+.price-left {
+    color: #1b1b1b;
+    float: left;
+    padding-right: 18px;
+    text-align: right;
+}
+
+.price-left .price_card {
+    font: 18px/50px Arial;
+}
+
+.price-left .price_card span {
+    font: 33px/33px Arial;
+}
+
+.price-left .availability {
+    font-size: 12px;
+    margin-top: -12px;
+}
+
+.price-right {
+    float: left;
+    margin-top: 17px;
+    padding-left: 18px;
+    padding-right: 32px;
+    position: relative;
+    border-left: 1px solid #cfcec6;
+}
+
+.price-right .old-price {
+    color: #e90101;
+}
+
+
+.price-right .old-price span {
+    font: 14px/20px Arial;
+    padding-right: 11px;
+    text-decoration: line-through;
+    color: #e90101;
+}
+
+.price-right .discount {
+    color: #1b1b1b;
+    font: 12px/18px Arial;
+}
+
+.colorsetting_card{
+    margin-bottom: 30px;
+}
+
+.colorsetting_card span{
+    font: 12px/34px Arial;
+}
+
+.colorsetting_item_card .check{
+    margin-right: 15px;
+}
+
+.table_header{
+    display: block;
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+}
+
+.table_header li{
+    display: inline-block;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #c1c1c1;
+    border-collapse: collapse;
+}
+
+.table_header > .active_li{
+    border-top: 1px solid #c1c1c1;
+    border-right:1px solid #c1c1c1;
+    border-left: 1px solid #c1c1c1;
+    border-bottom: 1px solid #ffffff;
+}
+
+.table_header > .active_li a{
+    background-color: #ffffff;
+    color: #f00;
+    padding-bottom: 0;
+}
+
+.table_header li a{
+    display:block;
+    background-color: #f1f2f3;
+    font: bold 11px/24px Arial;
+    padding: 0 18px 1px 20px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.li_border{
+    vertical-align: bottom;
+    width: 17px;
+    margin-left: -1px;
+}
+
+.table_item{
+    padding: 14px 11px 0 20px;
+    box-sizing: border-box;
+    width: 100%;
+    display: none;
+}
+
+.table_item p{
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 0 14px;
+}
+
+.pi-table tr td:first-child {
+    background-color: #f1f2f3;
+    border-bottom: 1px solid #fff;
+    font: bold 12px Arial;
+    padding: 10px 10px 10px 21px;
+    width: 130px;
+}
+
+.pi-table tr td {
+    border-bottom: 1px solid #f1f2f3;
+    font: 12px Arial;
+    padding: 10px 13px 10px 17px;
+    width: 270px;
+}
+
+.table_item_1{
+   display: block;
+}
+
+.table_item_2{
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.table_item_3{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.img-box{
+    background-color: #f1f2f3;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 84px;
+    height: 94px;
+}
+
+.img-box img {
+    padding-top: 31px;
+}
+
+.pm-text {
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    padding: 5px 0 0 12px;
+    vertical-align: middle;
+    max-width: 73%;
+}
+
+.pm-text span{
+    color: #000;
+    font: bold 12px Arial;
+    margin: 0 0 10px;
+}
+
+.table{
+    margin-bottom: 35px;
+}
+
+.table_item_4{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.table_item_5{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.table_item_5 p a{
+    text-decoration: underline;
+    font: 12px Arial;
+    color: #0000FF;
+}
+
+.label > .gallery_product_title{
+    font: 18px Arial;
+    display: block;
+}
+
+.gallery-wrap_product ul li{
+    max-width: 230px;
+}
+
+.gallery-wrap_product ul li:hover{
+    border: 1px solid #ffffff;
+}
+
+.gallery-wrap_product ul li:hover .fast-view{
+    display: none;
+}
+
+.btn_video{
+    display: none;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e5e5+35,d9d9d9+59 */
+    background: rgb(229,229,229); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIzNSUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1OSUiIHN0b3AtY29sb3I9IiNkOWQ5ZDkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(229,229,229,1) 35%, rgba(217,217,217,1) 59%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(229,229,229,1) 35%,rgba(217,217,217,1) 59%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(229,229,229,1) 35%,rgba(217,217,217,1) 59%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#d9d9d9',GradientType=0 ); /* IE6-8 */
+    padding:12px 110px 12px 142px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    position: relative;
+}
+
+.btn_video:before{
+    display: inline-block;
+    background: url("../img/btn_video.png");
+    width: 29px;
+    height: 21px;
+    content: "";
+    position: absolute;
+    left: 103px;
+    top: 10px;
+}
+
+.clear_770{
+    display: none;
+}
+
+
+.display_block{
+    display: none;
+}
+
+.card_title{
+    display: none;
+    padding-right: 9px;
+    box-sizing: border-box;
+    border-bottom: none;
+}
+
+.card_title_btn{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fdfdfd+0,f2f2f2+64,f2f2f2+100,f2f2f2+100,f2f2f2+100 */
+    background: #fdfdfd; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 64%, #f2f2f2 100%, #f2f2f2 100%, #f2f2f2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 64%,#f2f2f2 100%,#f2f2f2 100%,#f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fdfdfd 0%,#f2f2f2 64%,#f2f2f2 100%,#f2f2f2 100%,#f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 6px 14px;
+    font-family: "Arial", sans-serif;
+    float: right;
+    margin-top: 14px;
+}
+
+.card_chanel{
+    display: none;
+    padding: 18px 25px 35px 25px;
+    box-sizing: border-box;
+    margin:0 auto 25px;
+    background: #ededed;
+}
+
+.card_chanel span{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.card_chanel p{
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.filter_card{
+    box-sizing: border-box;
+    padding: 0 25px 0 10px;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.filter_sort{
+   float: left;
+}
+
+.filter_sort span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.filter_sort a{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fdfdfd+0,f2f2f2+64,f2f2f2+100,f2f2f2+100,f2f2f2+100 */
+    background: #fdfdfd; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 64%, #f2f2f2 100%, #f2f2f2 100%, #f2f2f2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 64%,#f2f2f2 100%,#f2f2f2 100%,#f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fdfdfd 0%,#f2f2f2 64%,#f2f2f2 100%,#f2f2f2 100%,#f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px 10px;
+    font-family: "Arial", sans-serif;
+    display: inline-block;
+}
+
+.filter_btn{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fdfdfd+0,f2f2f2+64,f2f2f2+100,f2f2f2+100,f2f2f2+100 */
+    background: #fdfdfd; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 64%, #f2f2f2 100%, #f2f2f2 100%, #f2f2f2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 64%,#f2f2f2 100%,#f2f2f2 100%,#f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fdfdfd 0%,#f2f2f2 64%,#f2f2f2 100%,#f2f2f2 100%,#f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 6px 38px 6px 35px;
+    font-family: "Arial", sans-serif;
+    display: inline-block;
+    float: right;
+    position: relative;
+}
+
+.filter_btn:before{
+   position: absolute;
+    content: "";
+    background: url("../img/arrow_filter.png");
+    width: 15px;
+    height: 11px;
+    right: 9px;
+    top: 12px;
+}
+
+.seo_text_card{
+    display: none;
+}
 
 /*psecdofooter*/
 .psevdofooter{
